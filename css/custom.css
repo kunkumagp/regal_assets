@@ -1,0 +1,305 @@
+a, a:active, a:after{
+    color: #af6900;
+}
+a:hover{
+    color: #ff9900;
+}
+
+.linkstyle1{
+    background-color: #ff9900;
+    padding: 5px;
+    border-radius: 3px;
+    color: #000;
+}
+.linkstyle1:hover{
+    background-color: #e38800;
+    color: #000;
+    text-decoration: none;
+}
+.form-group{
+    margin-bottom: 00px;
+    border: 0px;
+}
+.navbar-default{
+    background-color: #000;
+}
+.navbar-nav{
+    float: none !important;
+}
+.navbar-nav>li{
+    width: 20%;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ffcc00;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #ffcc00;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: #ffcc00;
+}
+#logo{
+    /*float: left;*/
+    text-align: left;
+}
+#hotlin{
+    text-align: right;
+    color: #B08B51;
+    /*float: right;*/
+}
+.dropdown-menu{
+    box-shadow:0 1px 1px rgba(255, 204, 0, 1);
+}
+.navbar{
+    margin-bottom: 0px !important;
+}
+.feature_box{
+    background-image:url("../img/couple_1.png");
+    background-size: cover;
+    height: 435px;
+}
+.row{
+    margin: 0px !important;
+}
+#regForm{
+    width: 40%;
+    float: right;
+    margin: 50px 170px 0px 40px;
+}
+.title1{ 
+    font-family: Impact, Charcoal, sans-serif; 
+    color: #262323; 
+    font-size: 42px; 
+    line-height: 42px; 
+    margin-bottom: 10px; 
+    font-weight: normal;
+    text-align: center;
+}
+.description_text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px!important;
+    text-align: center!important;
+    font-weight: bold;
+    line-height: 20px;
+    position: relative;
+}
+.important{
+    color: #cc0033;
+    float: right;
+    margin: 5px 0;
+}
+.form-control{
+    margin: 5px 0;
+    float: left;
+}
+.button-text{ 
+    font-family: Impact, Charcoal, sans-serif; 
+    border-radius: 6px; 
+    box-shadow: 2px 2px 4px rgba(0,0,0,.4); 
+    font-size: 21px; 
+    padding: 10px 0; 
+    border: 0; 
+    cursor: pointer; 
+    margin: 12px auto; 
+    width: 100%; 
+    max-width: 100%; 
+    color: #000000; 
+    background: #ffcc00; 
+    /*    display: block; 
+        -moz-box-sizing: border-box; 
+        -webkit-box-sizing: border-box; */
+    box-sizing: border-box; 
+} 
+#logo-section{
+    background-color: #333333;
+    color: #fff;
+    padding: 30px;
+}
+#social_icon{
+    width: 100%;
+}
+.content{
+    text-align: justify;
+}
+#rightside-section{
+    padding: 15px;
+}
+.r-title1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.title-danger{
+    font-size: 28px;
+    color: #FF0000;
+
+    font-family: Impact, Charcoal, sans-serif; 
+    margin-bottom: 10px; 
+    font-weight: normal;
+}
+.r-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.video-frame{
+    width: 100%;
+    height: 315px
+}
+
+#footer{
+    background-color: #333333;
+    color: #fff;
+    padding: 30px;
+}
+.links{
+    text-align: center;
+}
+.footer-link{
+    padding: 0px 15px;
+    color: #ff9900;
+}
+.footer-link:hover{
+    /*color: #ffbb55;*/
+    color: #fff;
+    text-decoration: none;
+}
+#footer-link-full{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    #hotlin{
+
+    }
+    h2{
+        font-size:28px!important;
+        text-align: center;
+        margin: 2px;
+    }
+    h4{
+        font-size:14px!important;
+        text-align: center;
+        margin: 1px;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        text-align: center;
+    }
+    .navbar-toggle{
+        float: none;
+        margin-right: 0px;
+    }
+    .navbar-nav>li{
+        width: 100%;
+    }
+    .navbar-collapse{
+        border: none;
+    }
+    .feature_box{
+        background-image:url("../img/couple_1.png");
+        background-size: cover;
+        height: 400px;
+    }
+    .title1{ 
+        font-family: Impact, Charcoal, sans-serif; 
+        color: #262323; 
+        font-size: 34px; 
+        line-height: 34px; 
+        margin-bottom: 10px; 
+        font-weight: normal;
+        text-align: center;
+    }
+    .description_text{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px!important;
+        text-align: center!important;
+        font-weight: bold;
+        line-height: 20px;
+        position: relative;
+    }
+
+}
+@media (max-width: 767px) {
+    #regForm{
+        width: 40%;
+        float: right;
+        margin: 40px 20px 0px 20px;
+    }
+    .title1{ 
+        font-family: Impact, Charcoal, sans-serif; 
+        color: #262323; 
+        font-size: 30px; 
+        line-height: 30px; 
+        margin-bottom: 10px; 
+        font-weight: normal;
+        text-align: center;
+    }
+    .description_text{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px!important;
+        text-align: center!important;
+        font-weight: bold;
+        line-height: 20px;
+        position: relative;
+    }
+    .footer-link{
+        padding: 0px 15px;
+        width: 100%;
+    }
+    .footer-link:hover{
+        /*color: #ffbb55;*/
+        color: #fff;
+        text-decoration: none;
+    }
+    #footer a{
+        color:#ff9900;
+        width: 250px;
+    }
+    #footer a:hover{
+        padding: 5px;
+        border-radius: 3px;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #footer-link-full{
+        display: block;
+    }
+    #footer-links{
+        display: none;
+    }
+}
+@media (max-width: 667px) {
+    #regForm{
+        width: 100%;
+        float: none;
+        margin: 0px;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #regForm{
+        width: 100%;
+        float: none;
+        margin: 0px;
+        padding: 30px;
+    }
+}
