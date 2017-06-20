@@ -205,13 +205,7 @@ a:hover{
 #footer-link-full{
     display: none;
 }
-#share-buttons img {
-    width: 35px;
-    padding: 5px;
-    border: 0;
-    box-shadow: 0;
-    display: inline;
-}
+
 .img-circle{
     border-radius:50%;
 }
@@ -219,76 +213,33 @@ a:hover{
     font-size: 14px;
     color: #999999;
 }
-.textstyle3{
-    font-size: 16px;
-    color: #999999;
-}
 .textstyle4{
     font-size: 11px;
     color: #999999;
 }
+.r-title1{
+    font-size: 28px;
+}
 
-.article-box{
-        display: block;
-    background-color: #f8f8f8;
-    width: 100%;
-    margin-bottom: 8px;
-    padding: 10px;
-}
-.article-box:hover{
-    background-color: #f1f1f1;
-    text-decoration: none!important;
-}
-.box:hover{
-    text-decoration: none;
-}
-#author-hd{
-    position: relative;
-    margin: 0 0 15px 0;
-    line-height: 14px;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    padding: 10px 0;
-}
-#author-hd2{
-    position: relative;
-    margin: 0 0 15px 0;
-    line-height: 14px;
-    border-top: 1px solid #ddd;
-    padding: 10px 0;
-}
-.media-right{
-    float: right;
-}
-.btn-follow{
-    background-color: #ff7300;
-    border:none;
-    min-width: 98px;
-    margin: 2px 2px 10px;
-    font: 14px Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    color: #fff;
-    outline: none !important;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-}
-.btn-follow:hover{
-    background-color: #ff9900;
-}
+
+
 
 .r_btn_style{
-    background-color: #ff7300;
-    border:none;
+    font-family: Impact, Charcoal, sans-serif;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+    font-size: 28px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    margin: 12px auto;
     width: 100%;
-    margin: 2px 2px 10px;
-    font: 14px Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    color: #fff;
-    outline: none !important;
+    max-width: 100%;
+    color: #000000;
+    background: #ffcc00;
+    box-sizing: border-box;
+    text-transform: uppercase !important;
     text-align: center;
-    padding:  12px 10px;
-    border-radius: 5px;
 }
 .r_btn_style:hover{
     background-color: #ff9900;
